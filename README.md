@@ -5,6 +5,12 @@ The sound volume is measured by an I2S micophone (SPH0645LM4 or INMP441)
 The state toggles when a changeable arbitrary soundvolume level is exceeded
 A changeable hysteresis is accomplished
 
+Example:
+
+https://www.hackster.io/RoSchmi/heating-burner-monitoring-using-esp32-and-microphone-80015d
+
+https://github.com/RoSchmi/Esp32_WiFiManager_HeatingSurvey
+
 Constructor: has two parameter, a configuaration struct and the used microphone type
 
 Initialization: .begin method with 4 parameters (has to be called in setup())
