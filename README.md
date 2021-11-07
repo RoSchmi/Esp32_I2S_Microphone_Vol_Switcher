@@ -1,6 +1,6 @@
 # Esp32_I2S_Microphone_Vol_Switcher
 
-SoundSwitcher is a class to implement a two state sensor reacting on sound levels
+SoundSwitcher is a class to implement a two state sensor reacting on sound levels.
 The sound volume is measured by an I2S micophone (SPH0645LM4 or INMP441)
 The state toggles when a changeable arbitrary soundvolume level is exceeded
 A changeable hysteresis is accomplished
