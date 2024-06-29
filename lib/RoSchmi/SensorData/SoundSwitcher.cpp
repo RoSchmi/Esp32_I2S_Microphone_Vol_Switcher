@@ -233,8 +233,7 @@ float SoundSwitcher::getSoundFromMicro()
 {   
     int32_t audio_buf[BUFLEN];
     size_t bytes_read;
-    i2s_read(i2s_num, audio_buf, sizeof(audio_buf), &bytes_read, portMAX_DELAY);
-    //int bytes_read = i2s_read_bytes(i2s_num, audio_buf, sizeof(audio_buf), portMAX_DELAY);
+    i2s_read(i2s_num, audio_buf, sizeof(audio_buf), &bytes_read, portMAX_DELAY);   
     int32_t cleanBuf[BUFLEN / 2] {0};
     int cleanBufIdx = 0;
     for (int i = 0; i < BUFLEN; i++)
